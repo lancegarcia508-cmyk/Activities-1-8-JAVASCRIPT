@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Activity 2</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        .hover-box {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            box-shadow: 5px 5px 10px gray;
+            transition: 0.3s;
+        }
+
+        .hover-box:hover {
+            background-color: darkviolet;
+            transform: scale(1.1);
+            box-shadow: 10px 10px 20px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Box Hover Effect</h2>
+
+    <div class="hover-box">
+        Over here my box
+    </div>
+
+</body>
+</html>
